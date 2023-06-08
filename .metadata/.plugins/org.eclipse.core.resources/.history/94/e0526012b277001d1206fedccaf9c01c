@@ -1,0 +1,15 @@
+package patern1;
+
+public class evenodd {
+public static void main(String[] args) {
+	 int n=5;
+	 switch (n%2) {
+	case 0:
+		System.out.println("even");
+		break;
+
+	default:System.out.println("odd");
+		break;
+	}
+}
+}

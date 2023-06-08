@@ -1,0 +1,35 @@
+package patern1;
+
+import java.util.Scanner;
+
+public class cal {
+public static void main(String[] args) {
+	while (true) {
+		Scanner s =new Scanner(System.in);
+		System.out.println("enter two numbers");
+		int a=s.nextInt();
+		int b=s.nextInt();
+		System.out.println("enter 1:Addition\n 2:Substraction\n 3:Multiplication"
+				 +"\n 4:division \n 5:mod \n6:exit");
+		int n=s.nextInt();
+	switch (n) {
+	case 1:System.out.println("Addtion of two numbers is:"+(a+b));;
+		break;
+	case 2:System.out.println("subs of two numbers is"+(a-b));
+	break;
+	case 3:System.out.println("mul of two numbers is"+(a*b));
+	break;
+	case 4:System.out.println("subs of two numbers is"+(a/b));
+	break;
+	case 5:System.out.println("modulus of two numbers is"+(a%b));
+	break;
+	case 6:System.exit(0);
+	break;
+
+	default:System.out.println("invalid input");
+		break;
+	}
+	}
+
+}
+}

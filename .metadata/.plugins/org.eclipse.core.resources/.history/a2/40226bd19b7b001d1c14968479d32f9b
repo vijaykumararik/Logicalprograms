@@ -1,0 +1,16 @@
+package patern1;
+
+public class fibno {
+public static void main(String[] args) {
+	int n=8,sum=0,x=0,y=1;
+	while(sum<8)
+	{
+		System.out.println(sum);
+		x=y;
+		y=sum;
+		sum=x+y;
+		
+		
+	}
+}
+}

@@ -1,0 +1,24 @@
+package patern1;
+
+import java.util.Scanner;
+
+public class fibno {
+public static void main(String[] args) {
+	Scanner s=new Scanner(System.in);
+	System.out.println("enter 1 value ");
+	int n1=s.nextInt();
+	System.out.println("enter 2nd value");
+	int n2=s.nextInt();
+	int sum=0,x=0,y=1;
+	while(sum<=n2)
+	{   if(sum>=n1) {
+		System.out.print(sum+" ");
+	}
+		x=y;
+		y=sum;
+		sum=x+y;
+		
+		
+	}
+}
+}
